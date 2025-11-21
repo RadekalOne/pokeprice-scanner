@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokePrice Scanner</title>
+    <style>
+        body {
+            width: 250px;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 15px;
+            background: #f4f4f4;
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 16px;
+        }
+        .status {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 10px;
+        }
+        .info {
+            font-size: 12px;
+            color: #666;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            background: #ff5252;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 13px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover { background: #e04040; }
+    </style>
+</head>
+<body>
+    <h2>🔴 PokePrice Scanner</h2>
+    <div class="status">
+        <strong>Status:</strong> Active
+        <p class="info">Hover over any card image on a webpage and click "Scan", or Right Click > "Scan Pokemon Card".</p>
+    </div>
+    <a href="https://pokemontcg.io/" target="_blank" class="btn">Powered by PokemonTCG.io</a>
+    <script src="popup.js"></script>
+</body>
+</html>
